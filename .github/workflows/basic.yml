@@ -4,9 +4,10 @@ on:
     branches:
       -main
 jobs:
-  build:
+  greet:
     runs-on: ububtu-latest
   steps:
-    -name: print hello
-    -uses: echo "hello"
+    -name: "greet user"
+     run: echo "hello"
+     
     
