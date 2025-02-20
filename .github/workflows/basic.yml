@@ -1,0 +1,12 @@
+name: demosetup
+on:
+  push:
+    branches:
+      -main
+jobs:
+  build:
+    runs-on: ububtu-latest
+  steps:
+    -name: print hello
+    -uses: echo "hello"
+    
