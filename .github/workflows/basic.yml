@@ -8,6 +8,6 @@ jobs:
     runs-on: ububtu-latest
   steps:
     -name: "greet user"
-     run: echo "hello"
+    -uses: echo "hello"
      
     
